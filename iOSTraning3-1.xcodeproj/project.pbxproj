@@ -18,6 +18,7 @@
 		024A7480196114EA000964CD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 024A747F196114EA000964CD /* Default-568h@2x.png */; };
 		024A7483196114EA000964CD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 024A7482196114EA000964CD /* ViewController.m */; };
 		024A7486196114EA000964CD /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 024A7484196114EA000964CD /* ViewController.xib */; };
+		024A749119611718000964CD /* 1.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 024A749019611718000964CD /* 1.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		024A7481196114EA000964CD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		024A7482196114EA000964CD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		024A7485196114EA000964CD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		024A749019611718000964CD /* 1.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1.JPG; path = ../../../Users/skaneko/Documents/temporary/snow/1.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		024A745D196114EA000964CD = {
 			isa = PBXGroup;
 			children = (
+				024A748F196116F2000964CD /* Resource */,
 				024A746F196114EA000964CD /* iOSTraning3-1 */,
 				024A7468196114EA000964CD /* Frameworks */,
 				024A7467196114EA000964CD /* Products */,
@@ -105,6 +108,14 @@
 				024A747F196114EA000964CD /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		024A748F196116F2000964CD /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				024A749019611718000964CD /* 1.JPG */,
+			);
+			name = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +174,7 @@
 				024A747E196114EA000964CD /* Default@2x.png in Resources */,
 				024A7480196114EA000964CD /* Default-568h@2x.png in Resources */,
 				024A7486196114EA000964CD /* ViewController.xib in Resources */,
+				024A749119611718000964CD /* 1.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
